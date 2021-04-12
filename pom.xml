@@ -178,11 +178,13 @@
 
     <!-- Required by maven-release-plugin -->
     <scm>
+         <connection>scm:git:https://github.com/bamboo-proton-2/my-app.git</connection>
         <developerConnection>
-            scm:git:https://github.com/bamboo-proton-2/my-app.git
+            scm:git:[fetch=]https://github.com/bamboo-proton-2/my-app.git
         </developerConnection>
       <tag>HEAD</tag>
   </scm>
+
 
     <distributionManagement>
         <repository>
