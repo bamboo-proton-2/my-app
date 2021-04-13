@@ -6,6 +6,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <properties>
+  <project.scm.id>stash</project.scm.id>
+
         <!-- Dependencies -->
         <commons-collections4.version>4.4</commons-collections4.version>
         <commons-lang3.version>3.11</commons-lang3.version>
